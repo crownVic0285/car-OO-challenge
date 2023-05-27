@@ -4,12 +4,14 @@ class Vehicle {
         this.model = model;
         this.year = year;
     }
+
     honk() {
         return "Beep.";
     }
     toString() {
         return `The vehicle is a ${this.make} ${this.model} from ${this.year}.`;
     }
+}
 
     class Car extends Vehicle {
         constructor(make,model,year) {
